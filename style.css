@@ -1,0 +1,279 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #2e4252;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    background-color: #6EC3C0;
+    align-items: center;
+    text-align: center;
+    padding: 20px 50px;
+    height: 180px;
+    color: #2e4252;
+}
+
+header h1 {
+    font-size: 80px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header div .item .img1{
+    transform: rotate(-15deg);
+}
+
+header div .item .img2{
+    transform: rotate(15deg);
+}
+
+header div .item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+header p{
+    font-size: 17px;
+    font-weight: normal;
+    font-style: normal;
+    padding-top: 10px;
+}
+
+section{
+    display: grid;
+    justify-content: center;
+    position: relative;
+    grid-template-columns: auto auto;
+}
+
+section .parent{
+    height: auto;
+    position: relative;
+    height: 500px;
+}
+
+section .parent div{
+    /* border: 3px solid red; */
+    width: 330px;
+    height: 150px;
+    position: absolute;
+    color: white;
+}
+
+section .parent .line{
+    display: grid;
+    justify-content: center;
+    height: 850px;
+    width: 5px;
+    background-color: #6EC3C0;
+    margin-top: 40px;
+    position: absolute;
+    left: 50%;
+}
+
+section .parent .line .one{
+    border-radius: 50%;
+    background-color: #6EC3C0;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: -8px;
+    top: -5px;
+}
+
+section .parent .line .two{
+    border-radius: 50%;
+    background-color: #6EC3C0;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: -8px;
+    bottom: -5px;
+}
+
+section .parent div h3{
+    color: #6EC3C0;
+    padding-bottom: 10px;
+}
+
+section .parent .line i{
+    color: white;
+    font-size: 54px;
+    position: absolute;
+}
+
+section .parent .line .a1{
+    background-color: #6EC3C0;
+    height: 5px;
+    width: 50px;
+    position: absolute;
+    left: -50px;
+    top: 50px;
+}
+
+section .parent .line .a1 i{
+    position: absolute;
+    top: -27px;
+    left: -48px;
+}
+
+section .parent .i1{
+    position: absolute;
+    top: 60px;
+    left: -450px;
+    font-size: 20px;
+    text-align: right;
+}
+
+section .parent .line .a2{
+    background-color: #6EC3C0;
+    height: 5px;
+    width: 50px;
+    position: absolute;
+    left: 0;
+    top: 150px;
+}
+
+section .parent .line .a2 i{
+    position: absolute;
+    top: -27px;
+    left: 48px;
+}
+
+section .parent .i2{
+    position: absolute;
+    top: 160px;
+    left: 120px;
+    font-size: 20px;
+    text-align: left;
+}
+
+section .parent .line .a3{
+    background-color: #6EC3C0;
+    height: 5px;
+    width: 50px;
+    position: absolute;
+    left: -50px;
+    top: 250px;
+}
+
+section .parent .line .a3 i{
+    position: absolute;
+    top: -27px;
+    left: -48px;
+}
+
+section .parent .i3{
+    position: absolute;
+    top: 265px;
+    left: -450px;
+    font-size: 20px;
+    text-align: right;
+}
+
+section .parent .line .a4{
+    background-color: #6EC3C0;
+    height: 5px;
+    width: 50px;
+    position: absolute;
+    left: 0;
+    top: 350px;
+}
+
+section .parent .line .a4 i{
+    position: absolute;
+    top: -27px;
+    left: 48px;
+}
+
+section .parent .i4{
+    position: absolute;
+    top: 360px;
+    left: 120px;
+    font-size: 20px;
+    text-align: left;
+}
+
+section .parent .line .a5{
+    background-color: #6EC3C0;
+    height: 5px;
+    width: 50px;
+    position: absolute;
+    left: -50px;
+    top: 450px;
+}
+
+section .parent .line .a5 i{
+    position: absolute;
+    top: -27px;
+    left: -48px;
+}
+
+section .parent .i5{
+    position: absolute;
+    top: 460px;
+    left: -450px;
+    font-size: 20px;
+    text-align: right;
+}
+
+section .parent .line .a6{
+    background-color: #6EC3C0;
+    height: 5px;
+    width: 50px;
+    position: absolute;
+    left: 0;
+    top: 550px;
+}
+
+section .parent .line .a6 i{
+    position: absolute;
+    top: -27px;
+    left: 48px;
+}
+
+section .parent .i6{
+    position: absolute;
+    top: 560px;
+    left: 120px;
+    font-size: 20px;
+    text-align: left;
+}
+
+section .parent .line .a7{
+    background-color: #6EC3C0;
+    height: 5px;
+    width: 50px;
+    position: absolute;
+    left: -50px;
+    top: 650px;
+}
+
+section .parent .line .a7 i{
+    position: absolute;
+    top: -27px;
+    left: -48px;
+}
+
+section .parent .i7{
+    position: absolute;
+    top: 660px;
+    left: -450px;
+    font-size: 20px;
+    text-align: right;
+}
+
+span{
+    color: orangered;
+    font-size: 33px;
+}
